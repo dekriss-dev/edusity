@@ -4,8 +4,7 @@ import mail_icon from '../../assets/mail-icon.png'
 import phone_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png'
 import white_arrow from '../../assets/white-arrow.png'
-import React from 'react'
-import {useEffect} from "react";
+import React, {useEffect} from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -35,7 +34,7 @@ const Contact = () => {
         const data = await response.json();
 
         if (data.success) {
-            setResult("Form Submitted Successfully");
+            setResult("Form sended.");
             event.target.reset();
         } else {
             console.log("Error", data);

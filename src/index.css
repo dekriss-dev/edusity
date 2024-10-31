@@ -11,6 +11,7 @@ html {
 body {
 	background: #f5f5f5;
 	font-family: 'Outfit', sans-serif;
+	overflow-x: hidden;
 }
 
 button {
@@ -61,4 +62,16 @@ a {
 
 .dark-btn:hover {
 	background: #353333;
+}
+
+/* media query */
+
+@media (max-width: 1200px) {
+	.container {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.btn {
+		padding: 14px 22px;
+	}
 }

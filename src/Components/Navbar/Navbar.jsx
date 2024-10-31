@@ -1,7 +1,8 @@
 import './Navbar.css'
-import { useState, useEffect } from 'react'
+import {useEffect, useState} from 'react'
 import logo from '../../assets/logo.png'
-import { Link } from 'react-scroll'
+import menu from '../../assets/menu-icon.png'
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
 	const [sticky, setSticky] = useState(false)
@@ -12,6 +13,11 @@ const Navbar = () => {
 		})
 	}, [])
 
+	const [mobileMenu, setMobileMenu] = useState(false)
+	const toggleMenu = () => {
+			mobileMenu? setMobileMenu(false) : setMobileMenu(true)
+	}
+
 	return (
 		<nav className={`container ${sticky ? 'dark-nav' : ''}`}>
 			<img
@@ -19,7 +25,7 @@ const Navbar = () => {
 				alt='Edusity logo'
 				className='logo'
 			/>
-			<ul>
+			<ul className={mobileMenu?'':'hide-mobile-menu'}>
 				<li>
 					<Link
 						to='hero'
@@ -77,6 +83,7 @@ const Navbar = () => {
 					</button>
 				</li>
 			</ul>
+			<img src={menu} alt="" className='menu-icon' onClick={toggleMenu}/>
 		</nav>
 	)
 }
