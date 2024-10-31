@@ -5,8 +5,19 @@ import phone_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png'
 import white_arrow from '../../assets/white-arrow.png'
 import React from 'react'
+import {useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init({
+            once: false,
+            duration: 850,
+            easing: 'ease',
+        });
+    }, []);
     const [result, setResult] = React.useState("");
 
     const onSubmit = async (event) => {
@@ -34,12 +45,12 @@ const Contact = () => {
   return (
     <div className='contact'>
         <div className="contact-col">
-            <h3>Send us a message <img src={msg_icon} alt="" /></h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem minus doloribus ratione magni illo? Deserunt, culpa. Repudiandae sequi beatae, doloribus dolores delectus quos, in aperiam inventore ullam non placeat deleniti natus quis ipsam excepturi fugiat laudantium maiores voluptatem. Ex, exercitationem odit alias ab dignissimos vero reprehenderit omnis maiores corrupti. Distinctio?</p>
+            <h3 data-aos="fade-up" data-aos-delay="0">Send us a message <img src={msg_icon} alt="" /></h3>
+            <p data-aos="fade-up" data-aos-delay="50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem minus doloribus ratione magni illo? Deserunt, culpa. Repudiandae sequi beatae, doloribus dolores delectus quos, in aperiam inventore ullam non placeat deleniti natus quis ipsam excepturi fugiat laudantium maiores voluptatem. Ex, exercitationem odit alias ab dignissimos vero reprehenderit omnis maiores corrupti. Distinctio?</p>
             <ul>
-                <li><img src={mail_icon} alt="" />contact@company.dev</li>
-                <li><img src={phone_icon} alt="" />+1 123-456-7890</li>
-                <li><img src={location_icon} alt="" />Lorem ipsum dolor sit amet.<br/>United States</li>
+                <li data-aos="fade-up" data-aos-delay="100"><img src={mail_icon} alt="" />contact@company.dev</li>
+                <li data-aos="fade-up" data-aos-delay="150"><img src={phone_icon} alt="" />+1 123-456-7890</li>
+                <li data-aos="fade-up" data-aos-delay="200"><img src={location_icon} alt="" />Lorem ipsum dolor sit amet.<br/>United States</li>
             </ul>
         </div>
         <div className="contact-col">
@@ -52,7 +63,7 @@ const Contact = () => {
                 <textarea name="message" rows='6' placeholder='Enter your message' required></textarea>
                 <button type='submit' className='btn dark-btn'>Submit now <img src={white_arrow} alt="" /></button>
             </form>
-            <span>{result}</span>
+            <span data-aos="fade-up" data-aos-delay="0">{result}</span>
         </div>
     </div>
   )

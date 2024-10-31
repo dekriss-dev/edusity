@@ -6,9 +6,20 @@ import user_1 from '../../assets/user-1.png'
 import user_2 from '../../assets/user-2.png'
 import user_3 from '../../assets/user-3.png'
 import user_4 from '../../assets/user-4.png'
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Testimonials = () => {
+
+	useEffect(() => {
+		AOS.init({
+			once: false,
+			duration: 850,
+			easing: 'ease',
+		});
+	}, []);
 
     const slider = useRef();
     let tx = 0
@@ -29,12 +40,16 @@ const Testimonials = () => {
 	return (
 		<div className='testimonials'>
 			<img
+				data-aos="fade-up"
+				data-aos-delay="0"
 				src={next_icon}
 				alt=''
 				className='next-btn'
 				onClick={slideForward}
 			/>
 			<img
+				data-aos="fade-up"
+				data-aos-delay="50"
 				src={back_icon}
 				alt=''
 				className='back-btn'
@@ -43,7 +58,8 @@ const Testimonials = () => {
 			<div className='slider'>
 				<ul ref={slider}>
 					<li>
-						<div className='slide'>
+						<div data-aos="fade-up"
+							 data-aos-delay="150" className='slide'>
 							<div className='user-info'>
 								<img
 									src={user_1}
@@ -62,7 +78,8 @@ const Testimonials = () => {
 						</div>
 					</li>
 					<li>
-						<div className='slide'>
+						<div data-aos="fade-up"
+							 data-aos-delay="250" className='slide'>
 							<div className='user-info'>
 								<img
 									src={user_2}

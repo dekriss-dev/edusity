@@ -41,6 +41,11 @@ a {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
+	transition: .3s ease all;
+}
+
+.btn:hover {
+	background: #dbd8d8;
 }
 
 .btn img {

@@ -46,7 +46,8 @@
     font-family: 'Outfit';
 	display: block;
 	width: 100%;
-    background: #EBECFE;
+    background: #d5d5d6;
+	border-radius: 10px;
     padding: 15px;
     border: 0;
     outline: 0;
