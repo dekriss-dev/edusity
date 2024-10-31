@@ -17,6 +17,9 @@ Preview:
 - How to make a Contact Form with Web3Forms
 - How to use <b>react-scroll</b>
 
+## TODO:
+- Mobile Friendly
+
 <hr>
 
 <b>Copyright &copy; 2024 [dekriss](https://dekriss.eu) and [GreatStack](https://www.youtube.com/@GreatStackDev)</b>
