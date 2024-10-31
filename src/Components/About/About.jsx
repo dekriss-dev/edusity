@@ -21,14 +21,11 @@ const About = () => {
             <img src={play_icon} alt="" className='play-icon'/>
         </div>
         <div className="about-right">
-            <h3 data-aos="fade-up" data-aos-delay="0">ABOUT UNIVERSITY</h3>
-            <h2 data-aos="fade-up" data-aos-delay="50">Nurturing Tomorrow&apos;s Leaders Today</h2>
-            <p data-aos="fade-up" data-aos-delay="100">Embark on a transformative educational journey with our university&apos;s comprehensive education programs. Our cutting-edge curriculum is designed to empower students with the knowledge, skills, and experiences needed to excel in the dynamic field of education.
-            </p>
-            <p data-aos="fade-up" data-aos-delay="150">With a focus on innovation, hands-on learning, and personalized mentorship, our programs prepare aspiring educators to make a meaningful impact in classrooms, schools, and communities.
-            </p>
-            <p data-aos="fade-up" data-aos-delay="200">Whether you aspire to become a teacher, administrator, counselor, or educational leader, our diverse range of programs offers the perfect pathway to achieve your goals and unlock your full potential in shaping the future of education.
-            </p>
+            <h3 data-aos="fade-up" data-aos-delay="0">O UNIWERSYTECIE</h3>
+            <h2 data-aos="fade-up" data-aos-delay="50">Zastanawiasz się nad wyborem?</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci architecto assumenda at autem blanditiis commodi consequuntur cumque cupiditate deserunt dolore doloremque error eum, hic ipsum, iste modi necessitatibus omnis possimus quod ratione saepe sed soluta tempore veniam. Accusamus culpa dolorem doloremque ea ex maiores quasi quidem veniam voluptas voluptatem?</p>
+            <p data-aos="fade-up" data-aos-delay="150">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequuntur cupiditate ea in laudantium modi praesentium. Ab architecto consequuntur cupiditate, debitis, deserunt, dignissimos harum inventore mollitia nihil omnis possimus quo sunt voluptatibus. Accusantium architecto beatae excepturi facere fugiat harum hic iusto laboriosam nisi optio, perspiciatis quaerat, quisquam sint ullam voluptatem!</p>
+            <p data-aos="fade-up" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eum eveniet id omnis quis. Aliquam aperiam, architecto cum dicta dolores doloribus fugiat in iste libero modi mollitia, nemo nihil placeat quas quibusdam quis sed sequi sint vero voluptate? Aliquid asperiores at ducimus ea esse fugiat incidunt magnam magni possimus ullam!</p>
         </div>
     </div>
   )

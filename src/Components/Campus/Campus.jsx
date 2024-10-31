@@ -25,7 +25,7 @@ const Campus = () => {
             <img data-aos="fade-up" data-aos-delay="100" src={gallery_3} alt="Photo nr 3" />
             <img data-aos="fade-up" data-aos-delay="150" src={gallery_4} alt="Photo nr 4" />
         </div>
-        <button data-aos="fade-up" data-aos-delay="200" className='btn dark-btn'>See more here <img src={white_arrow} alt="" /></button>
+        <button data-aos="fade-up" data-aos-delay="200" className='btn dark-btn'>Zobacz więcej <img src={white_arrow} alt="" /></button>
     </div>
   )
 }

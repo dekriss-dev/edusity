@@ -32,7 +32,7 @@ const Navbar = () => {
 						smooth={true}
 						offset={0}
 						duration={500}>
-						Home
+						Strona Główna
 					</Link>
 				</li>
 				<li>
@@ -50,7 +50,7 @@ const Navbar = () => {
 						smooth={true}
 						offset={-150}
 						duration={500}>
-						About us
+						O nas
 					</Link>
 				</li>
 				<li>
@@ -68,7 +68,7 @@ const Navbar = () => {
 						smooth={true}
 						offset={-260}
 						duration={500}>
-						Testimonials
+						Recenzje
 					</Link>
 				</li>
 				<li>
@@ -78,7 +78,7 @@ const Navbar = () => {
 							smooth={true}
 							offset={-260}
 							duration={500}>
-							Contact us
+							Skontaktuj się!
 						</Link>
 					</button>
 				</li>

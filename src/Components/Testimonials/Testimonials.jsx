@@ -6,7 +6,7 @@ import user_1 from '../../assets/user-1.png'
 import user_2 from '../../assets/user-2.png'
 import user_3 from '../../assets/user-3.png'
 import user_4 from '../../assets/user-4.png'
-import { useRef, useEffect } from 'react'
+import {useEffect, useRef} from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -66,7 +66,7 @@ const Testimonials = () => {
 									alt='User 1'
 								/>
 								<div>
-									<h3>William Jackson 1</h3>
+									<h3>Lorem ipsum.</h3>
 									<span>Edusity, USA</span>
 								</div>
 							</div>
@@ -86,7 +86,7 @@ const Testimonials = () => {
 									alt='User 2'
 								/>
 								<div>
-									<h3>William Jackson 2</h3>
+									<h3>Lorem ipsum.</h3>
 									<span>Edusity, USA</span>
 								</div>
 							</div>
@@ -105,7 +105,7 @@ const Testimonials = () => {
 									alt='User 3'
 								/>
 								<div>
-									<h3>William Jackson 3</h3>
+									<h3>Lorem ipsum.</h3>
 									<span>Edusity, USA</span>
 								</div>
 							</div>
@@ -124,7 +124,7 @@ const Testimonials = () => {
 									alt='User 4'
 								/>
 								<div>
-									<h3>William Jackson 4</h3>
+									<h3>Lorem ipsum.</h3>
 									<span>Edusity, USA</span>
 								</div>
 							</div>

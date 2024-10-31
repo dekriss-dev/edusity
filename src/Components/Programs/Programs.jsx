@@ -19,29 +19,29 @@ const Programs = () => {
         });
     }, []);
   return (
-    <div id='programs' className='programs'>
-        <div data-aos="fade-up" data-aos-delay="0" className="program">
-            <img src={program_1} alt="" />
-            <div className="caption">
-                <img src={program_icon_1} alt="" />
-                <p>Graduation Degree</p>
-            </div>
-        </div>
-        <div data-aos="fade-up" data-aos-delay="150" className="program">
-            <img src={program_2} alt="" />
-            <div className="caption">
-                <img src={program_icon_2} alt="" />
-                <p>Masters Degree</p>
-            </div>
-        </div>
-        <div data-aos="fade-up" data-aos-delay="300" className="program">
-            <img src={program_3} alt="" />
-            <div className="caption">
-                <img src={program_icon_3} alt="" />
-                <p>Post Graduation</p>
-            </div>
-        </div>
-    </div>
+      <div id='programs' className='programs'>
+          <div data-aos="fade-up" data-aos-delay="0" className="program">
+              <img src={program_3} alt=""/>
+              <div className="caption">
+                  <img src={program_icon_3} alt=""/>
+                  <p>Lorem ipsum.</p>
+              </div>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="150" className="program">
+              <img src={program_1} alt=""/>
+              <div className="caption">
+                  <img src={program_icon_1} alt=""/>
+                  <p>Lorem ipsum.</p>
+              </div>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="300" className="program">
+              <img src={program_2} alt=""/>
+              <div className="caption">
+                  <img src={program_icon_2} alt=""/>
+                  <p>Lorem ipsum.</p>
+              </div>
+          </div>
+      </div>
   )
 }
 
