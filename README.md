@@ -20,6 +20,7 @@ Preview:
 ## TODO:
 - Mobile Friendly
 
-<hr>
+<br>
+<br>
 
 <b>Copyright &copy; 2024 [dekriss](https://dekriss.eu) and [GreatStack](https://www.youtube.com/@GreatStackDev)</b>
